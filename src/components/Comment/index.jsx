@@ -13,7 +13,7 @@ import {
 } from "react-bootstrap";
 import "./style.css";
 import userIcon from "../../Image/Icon-user.jpg";
-import TodoList from "../TodoList";
+import TodoList from "../../components/TodoList";
 
 CommentFunc.propTypes = {
   onSubmit: PropTypes.func,

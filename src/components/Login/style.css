@@ -29,7 +29,10 @@ body{
     border-radius: 0;
     color: #fff ;
 }
+.Login__form{
+    padding: 20px;
 
+}
 .input-field::placeholder{
     color: #fff ;
 }
@@ -67,4 +70,22 @@ body{
 .submitLogin:hover{
     background-color: #fff;
     color: #ED8937;
+}
+
+.SignIn__Guest{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.SignIn__Guest:hover{
+    color: #ED8937;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px;
 }

@@ -1,0 +1,38 @@
+.Create__bg{
+    padding: 50px;
+    background: #E9EBEE;
+    min-height: 500px;
+}
+
+.Create__title{
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Create__field{
+    max-width: 400px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.Create__btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ED8937;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Create__btn:hover{
+    background-color: #ED8937;
+    font-weight: 500;
+}
+
+.Create__btn:focus{
+    background-color: #ED8937;
+    font-weight: 500;
+}
+

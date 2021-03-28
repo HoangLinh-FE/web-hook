@@ -11,6 +11,8 @@ import {
 } from "react-bootstrap";
 import "./style.css";
 import userIcon from "../../Image/Icon-user.jpg";
+import EditContent from "../EditContent";
+import AddImage from "../UploadImage";
 
 function DetailReport(props) {
   return (
@@ -59,9 +61,12 @@ function DetailReport(props) {
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="Detail__cmt-block">
-                <Button as="a" className="Detail__cmt-btn">
-                  Comment
-                </Button>
+                <a className="Detail__cmt-btn">
+                  <EditContent></EditContent>
+                </a>
+                <a className="Detail__cmt-btn">
+                  <AddImage></AddImage>
+                </a>
               </Card.Footer>
             </Card>
           </Col>

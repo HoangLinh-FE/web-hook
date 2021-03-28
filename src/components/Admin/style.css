@@ -1,0 +1,10 @@
+.Admin__bg{
+    background: #E9EBEE;
+    padding: 50px 0;
+    min-height: 550px;
+}
+
+.Admin__title{
+    text-transform: uppercase;
+    padding: 20px 0;
+}

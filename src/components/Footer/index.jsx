@@ -13,8 +13,6 @@ function Footer(props) {
             <ListGroup.Item as='a' href='/' className="footer__info-item">Home</ListGroup.Item>
             <ListGroup.Item as='a' href='/login' className="footer__info-item">Login</ListGroup.Item>
             <ListGroup.Item as='a' href='/upload' className="footer__info-item">Upload File</ListGroup.Item>
-            <ListGroup.Item as='a' href='/contact' className="footer__info-item">Contact</ListGroup.Item>
-
           </ListGroup>
         </Card></Col>
     <Col>

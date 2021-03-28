@@ -7,15 +7,12 @@ function Majors() {
   return (
     <div className="majors__bg">
       <Container>
-      <h2 className='title'>Majors</h2>
+      <h2 className='title'>Faculty</h2>
         <Row>
           <Col>
             <Card className='major__box'>
               <Card.Body>
                 <Card.Title className='major__title'>Business</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Deadline:
-                </Card.Subtitle>
                 <Card.Text className='major__content'>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.

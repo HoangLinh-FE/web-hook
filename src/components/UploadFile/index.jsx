@@ -20,7 +20,10 @@ function UploadFile() {
   return (
     <div className="upload__bg">
       <Container>
-        <Tabs defaultActiveKey="Upload" className='upload__item'>
+        <Tabs defaultActiveKey="View" className='upload__item'>
+        <Tab eventKey="View" title="View Post">
+            <ViewFile></ViewFile>
+          </Tab>
           <Tab eventKey="Upload" title="Upload File" >
             <Form
               noValidate
@@ -55,22 +58,20 @@ function UploadFile() {
                 </Form.Group>
               </Form.Row>
 
-              <Form.Row>
+              {/* <Form.Row>
               <Form.Group as={Col}>
                 <Form.File className="upload__field" required/>
                 <FormControl.Feedback type='invalid'>Please fill in the blanks!</FormControl.Feedback>
 
               </Form.Group>
-              </Form.Row>
+              </Form.Row> */}
 
               <Button className='upload__btn' type="submit">
                 Submit
               </Button>
             </Form>
           </Tab>
-          <Tab eventKey="View" title="View Post">
-            <ViewFile></ViewFile>
-          </Tab>
+          
         </Tabs>
       </Container>
     </div>

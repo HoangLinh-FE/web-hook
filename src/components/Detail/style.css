@@ -1,5 +1,5 @@
 .Detail__bg{
-    padding-top: 50px;
+    padding: 50px 0;
     background: #E9EBEE;
 }
 .Detail__title{
@@ -17,6 +17,7 @@
 }
 .Detail__user-cmt{
     max-height: 50px;
+    
 }
 
 
@@ -26,4 +27,13 @@
 }
 .Detail__cmt-content{
     padding: 10px;
+}
+
+.Detail__cmt-btn{
+    cursor: pointer;
+    padding: 10px ;
+}
+
+.Detail__cmt-btn:hover{
+    text-decoration: none;
 }
