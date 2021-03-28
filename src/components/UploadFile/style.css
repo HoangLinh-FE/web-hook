@@ -1,0 +1,45 @@
+
+.upload__bg{
+    padding: 20px 0;
+    min-height: 500px;
+}
+
+.upload__title{
+    font-size: 56px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.upload__form{
+    padding: 20px 50px;
+    border: 1px solid #dee2e6;
+}
+
+.upload__field{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.upload__item{
+    border: none;
+}
+
+.upload__btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ED8937;
+    color: #fff;
+}
+
+.upload__btn:hover{
+    background-color: #ED8937;
+    font-weight: 500;
+}
+
+.upload__btn:focus{
+    background-color: #ED8937;
+    font-weight: 500;
+}
+
+

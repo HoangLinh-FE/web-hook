@@ -1,0 +1,27 @@
+.footer__bg {
+    background-color: #343a40;
+    padding: 20px 0;
+    position: static;
+    bottom: 0;
+}
+
+.footer__info{
+    background: none;
+    border: none;
+}
+
+.footer__info-item{
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footer__info-item:hover{
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

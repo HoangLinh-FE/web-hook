@@ -1,0 +1,16 @@
+.honor__icon{
+    width: 100px;
+    height: 100px;
+}
+
+.honor{
+    padding: 20px 0;
+}
+
+.honor__title{
+    padding: 10px 0;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}

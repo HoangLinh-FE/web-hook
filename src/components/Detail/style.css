@@ -1,0 +1,29 @@
+.Detail__bg{
+    padding-top: 50px;
+    background: #E9EBEE;
+}
+.Detail__title{
+    background: #fff;
+    border-bottom: none;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Detail__cmt-block{
+    text-align: right;
+    
+}
+.Detail__user-cmt{
+    max-height: 50px;
+}
+
+
+.Detail__block-cmt {
+    padding: 10px 0;
+    width: inherit;
+}
+.Detail__cmt-content{
+    padding: 10px;
+}
