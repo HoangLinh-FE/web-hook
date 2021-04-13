@@ -20,6 +20,7 @@ function NavBar(props) {
       <Nav.Link href="/upload" target='_blank'>Upload</Nav.Link>
       <Nav.Link href="/admin">Admin</Nav.Link>
       <Nav.Link href="/createUser">Create User</Nav.Link>
+      <Nav.Link href="/manager">Manager</Nav.Link>
     </Nav>
   </Navbar>
   </div>

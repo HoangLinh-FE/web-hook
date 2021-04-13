@@ -22,3 +22,14 @@
     max-width: fit-content;
     padding: 10px;
 }
+
+.Comment__btn{
+    background: #ED8937;
+    border: none;
+}
+
+.Comment__btn:hover{
+    font-weight: bold;
+    background: #ED8937;
+    border: none;
+}

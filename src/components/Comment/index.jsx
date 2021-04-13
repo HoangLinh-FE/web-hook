@@ -63,7 +63,7 @@ function CommentFunc(props) {
           <Col md="1">
             <Image src={userIcon} className="Comment__user-cmt" roundedCircle />
           </Col>
-          <Col md="11">
+          <Col md="10">
             <Form onSubmit={handleSubmit}>
               <Form.Control
                 type="text"
@@ -72,6 +72,22 @@ function CommentFunc(props) {
                 onChange={handleValueChange}
               ></Form.Control>
             </Form>
+          </Col>
+          <Col md="1">
+            <Button className='Comment__btn'>
+              Comment
+            </Button>
+          </Col>
+        </Row>
+
+        <Row className="Comment__block-cmt">
+          <Col md="1">
+            <Image src={userIcon} className="Comment__user-cmt" roundedCircle />
+          </Col>
+          <Col md="11">
+          <Card>
+  <Card.Body>This is some text within a card body.</Card.Body>
+</Card>
           </Col>
         </Row>
       </Container>

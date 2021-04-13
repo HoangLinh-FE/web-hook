@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form, Button, Spinner } from "react-bootstrap";
 import "./style.css";
 import './main.js';
+import CallAPI from "../Example";
 
 function LoginPage() {
 
@@ -19,7 +20,7 @@ function LoginPage() {
             <Form.Control type="password" placeholder="Password" className='input-field' />
           </Form.Group>
           <Button className='submitLogin' type="submit">
-            Submit 
+            Login
           </Button>
         </Form>
 

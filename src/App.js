@@ -1,6 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import {useState} from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
+import axios from 'axios';
+import {Spinner} from 'react-bootstrap';
 import LoginPage from "./components/Login";
 import NavBar from "./components/Nav";
 import Slider from "./components/BackgroundSlider";
@@ -15,24 +17,15 @@ import CommentFunc from './components/Comment';
 import TodoList from './components/TodoList';
 import AdminPage from "./components/Admin";
 import CreateUser from "./components/CreateUser";
+import CallAPI from "./components/Example";
+import UpdateReport from "./components/UpdateReport";
+import Manager from "./components/Manager";
 
 function App() {
-  // const [todoList, setTodoList] = useState([]);
-
-  // function handleTodoFormSubmit(formValues) {
-  //   console.log('Form Submit:', formValues)
-
-  //   // add new todo current tod list
-  //   const newTodo = {
-  //     id: todoList.length + 1,
-  //     ...formValues,
-  //   }
-  //   const newTodoList = [...todoList];
-  //   newTodoList.push(newTodo);
-  //   setTodoList(newTodoList);
-  // }
+  
   return (
     <div className="App">
+    
       <Router>
         <Route exact path="/">
           <NavBar />
@@ -52,8 +45,6 @@ function App() {
         <Route path="/detail">
           <NavBar />
           <DetailReport />
-          {/* <CommentFunc onSubmit={handleTodoFormSubmit} />
-          <TodoList todos={todoList}></TodoList> */}
           <Footer />
         </Route>
         <Route path='/admin'>
@@ -64,6 +55,16 @@ function App() {
         <Route path='/createUser'>
           <NavBar />
           <CreateUser />
+          <Footer />
+        </Route>
+        <Route path='/update'>
+          <NavBar />
+          <UpdateReport />
+          <Footer />
+        </Route>
+        <Route path='/manager'>
+          <NavBar />
+          <Manager />
           <Footer />
         </Route>
       </Router>
