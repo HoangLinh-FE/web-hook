@@ -28,7 +28,7 @@ function AdminPage(props) {
                   the bulk of the card's content.
                 </Card.Text>
                 <Card.Link href="/detail" target='_blank'>Read more</Card.Link>
-                <Card.Link href="#"><EditTitle></EditTitle></Card.Link>
+                <Card.Link href="/update">Edit</Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -41,7 +41,7 @@ function AdminPage(props) {
                   the bulk of the card's content.
                 </Card.Text>
                 <Card.Link href="/detail" target='_blank'>Read more</Card.Link>
-                <Card.Link href="#"><EditTitle></EditTitle></Card.Link>
+                <Card.Link href="/update">Edit</Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -54,7 +54,7 @@ function AdminPage(props) {
                   the bulk of the card's content.
                 </Card.Text>
                 <Card.Link href="/detail" target='_blank'>Read more</Card.Link>
-                <Card.Link href="#"><EditTitle></EditTitle></Card.Link>
+                <Card.Link href="/update">Edit</Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -67,7 +67,7 @@ function AdminPage(props) {
                   the bulk of the card's content.
                 </Card.Text>
                 <Card.Link href="/detail" target='_blank'>Read more</Card.Link>
-                <Card.Link href="#"><EditTitle></EditTitle></Card.Link>
+                <Card.Link href="/update">Edit</Card.Link>
               </Card.Body>
             </Card>
           </Col>
