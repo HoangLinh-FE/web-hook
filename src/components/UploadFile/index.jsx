@@ -58,13 +58,13 @@ function UploadFile() {
                 </Form.Group>
               </Form.Row>
 
-              {/* <Form.Row>
+              <Form.Row>
               <Form.Group as={Col}>
                 <Form.File className="upload__field" required/>
                 <FormControl.Feedback type='invalid'>Please fill in the blanks!</FormControl.Feedback>
 
               </Form.Group>
-              </Form.Row> */}
+              </Form.Row>
 
               <Button className='upload__btn' type="submit">
                 Submit
